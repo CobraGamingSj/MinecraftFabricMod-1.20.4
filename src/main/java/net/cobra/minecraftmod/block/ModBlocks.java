@@ -43,7 +43,7 @@ public class ModBlocks {
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new Block(FabricBlockSettings.create().strength(4.0f, 4.0f).sounds(BlockSoundGroup.STONE).hardness(4.0f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("ddepslate_ruby_ore",
-            new Block(FabricBlockSettings.create().strength(4.5f, 4.5f).sounds(BlockSoundGroup.STONE).hardness(4.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)))
+            new Block(FabricBlockSettings.create().strength(4.5f, 4.5f).sounds(BlockSoundGroup.STONE).hardness(4.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
 

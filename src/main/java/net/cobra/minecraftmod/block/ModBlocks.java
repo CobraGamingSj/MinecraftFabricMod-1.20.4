@@ -24,6 +24,7 @@ public class ModBlocks {
         entries.add(ModBlocks.RADIANT_BLOCK);
         entries.add(ModBlocks.SAPPHIRE_BLOCK);
         entries.add(ModBlocks.GREEN_SAPPHIRE_BLOCK);
+        entries.add(ModBlocks.RUBY_ORE);
     }
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -34,6 +35,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.create().strength(3.0f, 4.0f).sounds(BlockSoundGroup.METAL).hardness(3.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.BLUE)));
     public static final Block GREEN_SAPPHIRE_BLOCK = registerBlock("green_sapphire_block",
             new Block(FabricBlockSettings.create().strength(3.0f, 4.0f).sounds(BlockSoundGroup.METAL).hardness(3.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.EMERALD_GREEN)));
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new Block(FabricBlockSettings.create().strength(4.0f, 4.0f).sounds(BlockSoundGroup.STONE).hardness(4.0f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

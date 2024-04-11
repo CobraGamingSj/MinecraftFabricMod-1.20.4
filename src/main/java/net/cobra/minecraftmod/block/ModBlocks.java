@@ -27,6 +27,10 @@ public class ModBlocks {
         entries.add(ModBlocks.RUBY_ORE);
         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
     }
+    private static void addBlocksToNaturalBlocksItemGroup(FabricItemGroupEntries entries) {
+        entries.add(ModBlocks.RUBY_ORE);
+        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+    }
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.create().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL).hardness(5.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.BRIGHT_RED)));
@@ -55,6 +59,7 @@ public class ModBlocks {
         MinecraftMod.LOGGER.info("Registering ModBlocks for" + MinecraftMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModBlocks::addBlocksToBuilding_BlocksItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModBlocks::addBlocksToNaturalBlocksItemGroup);
     }
 
 }

@@ -46,6 +46,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.create().strength(4.5f, 4.5f).sounds(BlockSoundGroup.STONE).hardness(4.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)))
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
+
         return Registry.register(Registries.BLOCK, new Identifier(MinecraftMod.MOD_ID, name), block);
     }
 

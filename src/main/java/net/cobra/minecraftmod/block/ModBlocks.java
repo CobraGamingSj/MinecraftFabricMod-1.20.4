@@ -25,6 +25,7 @@ public class ModBlocks {
         entries.add(ModBlocks.SAPPHIRE_BLOCK);
         entries.add(ModBlocks.GREEN_SAPPHIRE_BLOCK);
         entries.add(ModBlocks.RUBY_ORE);
+        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
     }
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -37,7 +38,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.create().strength(3.0f, 4.0f).sounds(BlockSoundGroup.METAL).hardness(3.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.EMERALD_GREEN)));
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new Block(FabricBlockSettings.create().strength(4.0f, 4.0f).sounds(BlockSoundGroup.STONE).hardness(4.0f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
-
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("ddepslate_ruby_ore",
+            new Block(FabricBlockSettings.create().strength(4.5f, 4.5f).sounds(BlockSoundGroup.STONE).hardness(4.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)))
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(MinecraftMod.MOD_ID, name), block);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraftmod:green_sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "minecraftmod:green_sapphire",
+    "count": 9
+  }
+}

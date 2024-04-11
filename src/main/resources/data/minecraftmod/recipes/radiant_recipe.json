@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "pattern": [
+    "rrr",
+    "rar",
+    "rrr"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraftmod:ruby"
+    }
+  },
+    "a": {
+      "item": "minecraft:diamond"
+  },
+  "result": {
+    "item": "minecraftmod:radiant",
+    "count": 1
+  }
+}

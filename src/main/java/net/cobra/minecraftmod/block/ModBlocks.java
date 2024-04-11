@@ -42,12 +42,9 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings()));
     }
 
-    public static void registerModBlocks() {
-        MinecraftMod.LOGGER.info("Registering Mod Blocks for" + MinecraftMod.MOD_ID);
-    }
 
-    public static void registerModItems() {
-        MinecraftMod.LOGGER.info("Registering Mod Blocks for" + MinecraftMod.MOD_ID);
+    public static void registerModBlocks() {
+        MinecraftMod.LOGGER.info("Registering ModBlocks for" + MinecraftMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModBlocks::addBlocksToBuilding_BlocksItemGroup);
     }

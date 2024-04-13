@@ -17,12 +17,14 @@ public class ModItems {
     public static Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static Item GREEN_SAPPHIRE = registerItem("green_sapphire", new Item(new FabricItemSettings()));
     public static Item PINEAPPLE = registerItem("pineapple", new Item(new FabricItemSettings().food(ModFoodComponents.PINEAPPLE)));
+    public static Item WOOD_PELLET = registerItem("wood_pellet", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RADIANT);
         entries.add(SAPPHIRE);
         entries.add(GREEN_SAPPHIRE);
+        entries.add(WOOD_PELLET);
     }
 
     private static void addItemsToFoodsAndDrinksItemGroup(FabricItemGroupEntries entries) {

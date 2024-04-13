@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraftmod:green_sapphire_ore"
+              "name": "minecraftmod:sapphire_ore"
             },
             {
               "type": "minecraft:item",
@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraftmod:green_sapphire"
+              "name": "minecraftmod:sapphire"
             }
           ]
         }
@@ -55,5 +55,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraftmod:blocks/green_sapphire_ore"
+  "random_sequence": "minecraftmod:blocks/sapphire_ore"
 }

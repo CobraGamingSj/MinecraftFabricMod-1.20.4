@@ -33,6 +33,9 @@ public class ModBlocks {
         entries.add(ModBlocks.RUBY_ORE);
         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
         entries.add(ModBlocks.GREEN_SAPPHIRE_ORE);
+        entries.add(ModBlocks.DEEPSLATE_GREEN_SAPPHIRE_ORE);
+        entries.add(ModBlocks.SAPPHIRE_ORE);
+        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
     }
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -49,6 +52,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.create().strength(4.5f, 4.5f).sounds(BlockSoundGroup.STONE).hardness(4.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
     public static final Block GREEN_SAPPHIRE_ORE = registerBlock("green_sapphire_ore",
             new Block(FabricBlockSettings.create().strength(2.5f, 2.5f).sounds(BlockSoundGroup.STONE).hardness(2.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
+    public static final Block DEEPSLATE_GREEN_SAPPHIRE_ORE = registerBlock("deepslate_green_sapphire_ore",
+            new Block(FabricBlockSettings.create().strength(3.5f, 3.5f).sounds(BlockSoundGroup.STONE).hardness(3.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
+    public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            new Block(FabricBlockSettings.create().strength(2.5f, 2.5f).sounds(BlockSoundGroup.STONE).hardness(2.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
+    public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
+            new Block(FabricBlockSettings.create().strength(3.5f, 3.5f).sounds(BlockSoundGroup.STONE).hardness(3.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
 
 
     private static Block registerBlock(String name, Block block) {

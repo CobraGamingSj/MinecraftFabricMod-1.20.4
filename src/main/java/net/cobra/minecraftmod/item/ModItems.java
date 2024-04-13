@@ -16,12 +16,17 @@ public class ModItems {
     public static Item RADIANT = registerItem("radiant", new Item(new FabricItemSettings()));
     public static Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings()));
     public static Item GREEN_SAPPHIRE = registerItem("green_sapphire", new Item(new FabricItemSettings()));
+    public static Item PINEAPPLE = registerItem("pineapple", new Item(new FabricItemSettings().food(ModFoodComponents.PINEAPPLE)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RADIANT);
         entries.add(SAPPHIRE);
         entries.add(GREEN_SAPPHIRE);
+    }
+
+    private static void addItemsToFoodsAndDrinksItemGroup(FabricItemGroupEntries entries) {
+       entries.add(ModItems.PINEAPPLE);
     }
 
 
@@ -34,6 +39,7 @@ public class ModItems {
         MinecraftMod.LOGGER.info("Registering Mod Items for" + MinecraftMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodsAndDrinksItemGroup);
     }
 
 }

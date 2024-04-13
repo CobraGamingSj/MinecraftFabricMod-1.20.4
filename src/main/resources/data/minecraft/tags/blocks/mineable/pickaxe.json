@@ -4,6 +4,9 @@
     "minecraftmod:ruby_block",
     "minecraftmod:sapphire_block",
     "minecraftmod:radiant_block",
-    "minecraftmod:green_sapphire_block"
+    "minecraftmod:green_sapphire_block",
+    "minecraftmod:ruby_ore",
+    "minecraftmod:deepslate_ruby_ore",
+    "minecraftmod:sapphire_ore"
   ]
 }

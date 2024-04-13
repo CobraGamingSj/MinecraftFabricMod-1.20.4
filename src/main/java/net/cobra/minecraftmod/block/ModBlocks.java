@@ -32,6 +32,7 @@ public class ModBlocks {
     private static void addBlocksToNaturalBlocksItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModBlocks.RUBY_ORE);
         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+        entries.add(ModBlocks.SAPPHIRE_ORE);
     }
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -47,7 +48,7 @@ public class ModBlocks {
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             new Block(FabricBlockSettings.create().strength(4.5f, 4.5f).sounds(BlockSoundGroup.STONE).hardness(4.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.create().strength(2.5f), UniformIntProvider.create(2, 5)));
+            new Block(FabricBlockSettings.create().strength(2.5f, 2.5f).sounds(BlockSoundGroup.STONE).hardness(2.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
 
 
     private static Block registerBlock(String name, Block block) {

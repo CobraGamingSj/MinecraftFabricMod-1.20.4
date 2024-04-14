@@ -27,5 +27,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModBlocks.GREEN_SAPPHIRE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RADIANT, RecipeCategory.DECORATIONS,
                 ModBlocks.RADIANT_BLOCK);
+
+
     }
 }

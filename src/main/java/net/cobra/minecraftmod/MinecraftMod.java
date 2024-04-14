@@ -19,7 +19,7 @@ public class MinecraftMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		FuelRegistry.INSTANCE.add(ModItems.WOOD_PELLET , 400);
+		FuelRegistry.INSTANCE.add(ModItems.WOOD_PELLET , 1000);
 
 	}
 }

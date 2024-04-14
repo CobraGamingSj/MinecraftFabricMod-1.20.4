@@ -20,5 +20,9 @@
   "item.minecraftmod.ruby_sword": "Ruby Sword",
   "item.minecraftmod.ruby_shovel": "Ruby Shovel",
   "item.minecraftmod.ruby_hoe": "Ruby Hoe",
+  "item.minecraftmod.ruby_helmet": "Ruby Helmet",
+  "item.minecraftmod.ruby_chestplate": "Ruby Chestplate",
+  "item.minecraftmod.ruby_leggings": "Ruby Leggings",
+  "item.minecraftmod.ruby_boots": "Ruby Boots",
   "itemgroup.ruby": "Gemstones"
 }

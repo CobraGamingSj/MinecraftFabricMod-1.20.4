@@ -4,6 +4,7 @@ import net.cobra.minecraftmod.block.ModBlocks;
 import net.cobra.minecraftmod.item.ModFoodComponents;
 import net.cobra.minecraftmod.item.ModItemGroups;
 import net.cobra.minecraftmod.item.ModItems;
+import net.cobra.minecraftmod.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -19,6 +20,7 @@ public class MinecraftMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModLootTableModifiers.modifyLootTables();
 		FuelRegistry.INSTANCE.add(ModItems.WOOD_PELLET , 1000);
 
 	}

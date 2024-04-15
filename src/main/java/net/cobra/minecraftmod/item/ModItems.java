@@ -1,7 +1,6 @@
 package net.cobra.minecraftmod.item;
 
 import net.cobra.minecraftmod.MinecraftMod;
-import net.cobra.minecraftmod.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -17,7 +16,7 @@ public class ModItems {
     public static final Item GREEN_SAPPHIRE = registerItem("green_sapphire", new Item(new FabricItemSettings()));
     public static final Item PINEAPPLE = registerItem("pineapple", new Item(new FabricItemSettings().food(ModFoodComponents.PINEAPPLE)));
     public static final Item WOOD_PELLET = registerItem("wood_pellet", new Item(new FabricItemSettings()));
-    public static final Item RUBY_UPGRADE_SMITHING_TEMPLATE = registerItem("ruby_upgrade_smithing_template", new Item(new FabricItemSettings()));
+    public static final Item SMITHING_TEMPLATE = registerItem("smithing_template", new Item(new FabricItemSettings()));
 
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", new PickaxeItem(ModToolMaterial.RUBY, 2, 1.5f, new FabricItemSettings()));
     public static final Item RUBY_AXE = registerItem("ruby_axe", new AxeItem(ModToolMaterial.RUBY, 6, 2.1f, new FabricItemSettings()));
@@ -36,6 +35,7 @@ public class ModItems {
         entries.add(SAPPHIRE);
         entries.add(GREEN_SAPPHIRE);
         entries.add(WOOD_PELLET);
+        entries.add(ModItems.SMITHING_TEMPLATE);
     }
 
     private static void addItemsToFoodsAndDrinksItemGroup(FabricItemGroupEntries entries) {
@@ -46,7 +46,6 @@ public class ModItems {
         entries.add(ModItems.RUBY_AXE);
         entries.add(ModItems.RUBY_SHOVEL);
         entries.add(ModItems.RUBY_HOE);
-        entries.add(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE);
    }
     private static void addToolsToCombatGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.RUBY_SWORD);
@@ -54,7 +53,6 @@ public class ModItems {
         entries.add(ModItems.RUBY_CHESTPLATE);
         entries.add(ModItems.RUBY_LEGGINGS);
         entries.add(ModItems.RUBY_BOOTS);
-        entries.add(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE);
     }
 
 

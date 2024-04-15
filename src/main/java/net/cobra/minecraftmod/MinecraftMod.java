@@ -1,7 +1,6 @@
 package net.cobra.minecraftmod;
 
 import net.cobra.minecraftmod.block.ModBlocks;
-import net.cobra.minecraftmod.item.ModFoodComponents;
 import net.cobra.minecraftmod.item.ModItemGroups;
 import net.cobra.minecraftmod.item.ModItems;
 import net.cobra.minecraftmod.util.ModLootTableModifiers;

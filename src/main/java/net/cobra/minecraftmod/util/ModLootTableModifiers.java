@@ -63,7 +63,7 @@ public class ModLootTableModifiers {
                  LootPool.Builder poolBuilder = LootPool.builder()
                          .rolls(ConstantLootNumberProvider.create(1))
                          .conditionally(RandomChanceLootCondition.builder(1f)) // Drops 100% of the time
-                         .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                         .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                          .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                  tableBuilder.pool(poolBuilder.build());
@@ -73,7 +73,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -82,7 +82,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -91,7 +91,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -100,7 +100,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -109,7 +109,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -118,7 +118,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -127,7 +127,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -136,7 +136,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -145,7 +145,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -154,7 +154,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -163,7 +163,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -172,7 +172,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -181,7 +181,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -190,7 +190,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -199,7 +199,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -208,7 +208,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -217,7 +217,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.5f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -226,7 +226,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.5f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -235,7 +235,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.25f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -244,7 +244,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.1f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -253,7 +253,7 @@ public class ModLootTableModifiers {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.15f))
-                        .with(ItemEntry.builder(ModItems.RUBY_UPGRADE_SMITHING_TEMPLATE))
+                        .with(ItemEntry.builder(ModItems.SMITHING_TEMPLATE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

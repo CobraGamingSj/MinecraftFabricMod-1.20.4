@@ -17,7 +17,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
      getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
              .add(ModItems.RUBY_HELMET)
-             .add(ModItems.RUBY_CHESTPLATE)
+             .add(ModItems.SMITHING_TEMPLATE)
              .add(ModItems.RUBY_LEGGINGS)
              .add(ModItems.RUBY_BOOTS);
     }

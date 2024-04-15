@@ -3,6 +3,7 @@ package net.cobra.minecraftmod;
 import net.cobra.minecraftmod.block.ModBlocks;
 import net.cobra.minecraftmod.item.ModItemGroups;
 import net.cobra.minecraftmod.item.ModItems;
+import net.cobra.minecraftmod.util.ModCustomTrades;
 import net.cobra.minecraftmod.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,6 +21,7 @@ public class MinecraftMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTables();
+		ModCustomTrades.registerCustomTrades();
 		FuelRegistry.INSTANCE.add(ModItems.WOOD_PELLET , 1000);
 
 	}

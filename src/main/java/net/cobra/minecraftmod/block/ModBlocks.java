@@ -1,25 +1,21 @@
 package net.cobra.minecraftmod.block;
 
 import net.cobra.minecraftmod.MinecraftMod;
+import net.cobra.minecraftmod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
-import net.minecraft.item.ToolItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -39,7 +35,7 @@ public class ModBlocks {
     }
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            new Block(FabricBlockSettings.create().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL).hardness(5.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.BRIGHT_RED)));
+            new Block(FabricBlockSettings.create().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL).hardness(5.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.BRIGHT_RED).sounds(ModSounds.RUBY_BLOCK_SOUNDS)));
     public static final Block RADIANT_BLOCK = registerBlock("radiant_block",
             new Block(FabricBlockSettings.create().strength(4.0f, 5.0f).sounds(BlockSoundGroup.METAL).hardness(4.0f).requiresTool().instrument(Instrument.BELL).mapColor(MapColor.DARK_RED)));
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
@@ -58,7 +54,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings.create().strength(2.5f, 2.5f).sounds(BlockSoundGroup.STONE).hardness(2.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
     public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
             new Block(FabricBlockSettings.create().strength(3.5f, 3.5f).sounds(BlockSoundGroup.STONE).hardness(3.5f).requiresTool().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASS)));
-
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

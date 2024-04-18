@@ -5,6 +5,8 @@ import net.cobra.minecraftmod.item.ModItemGroups;
 import net.cobra.minecraftmod.item.ModItems;
 import net.cobra.minecraftmod.util.ModCustomTrades;
 import net.cobra.minecraftmod.util.ModLootTableModifiers;
+import net.cobra.minecraftmod.villager.ModVillagers;
+import net.cobra.minecraftmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -22,7 +24,9 @@ public class MinecraftMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
-		FuelRegistry.INSTANCE.add(ModItems.WOOD_PELLET , 1000);
+		ModVillagers.registerVillagers();
+		ModWorldGeneration.generateModWorldGen();
+		FuelRegistry.INSTANCE.add(ModItems.WOOD_PELLET , 2000);
 
 	}
 }

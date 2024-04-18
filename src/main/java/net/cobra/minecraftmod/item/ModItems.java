@@ -1,6 +1,8 @@
 package net.cobra.minecraftmod.item;
 
 import net.cobra.minecraftmod.MinecraftMod;
+import net.cobra.minecraftmod.block.ModBlocks;
+import net.cobra.minecraftmod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -17,6 +19,7 @@ public class ModItems {
     public static final Item PINEAPPLE = registerItem("pineapple", new Item(new FabricItemSettings().food(ModFoodComponents.PINEAPPLE)));
     public static final Item WOOD_PELLET = registerItem("wood_pellet", new Item(new FabricItemSettings()));
     public static final Item SMITHING_TEMPLATE = registerItem("smithing_template", new Item(new FabricItemSettings()));
+    public static final Item C418_TASWELL = registerItem("taswell", new MusicDiscItem(7, ModSounds.C418_TASWEL, new FabricItemSettings().maxCount(1), 514));
 
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", new PickaxeItem(ModToolMaterial.RUBY, 2, 1.5f, new FabricItemSettings()));
     public static final Item RUBY_AXE = registerItem("ruby_axe", new AxeItem(ModToolMaterial.RUBY, 6, 2.1f, new FabricItemSettings()));
@@ -37,7 +40,9 @@ public class ModItems {
         entries.add(WOOD_PELLET);
         entries.add(ModItems.SMITHING_TEMPLATE);
     }
-
+//    private static void addBlocksToFunctionalBlocksGroup(FabricItemGroupEntries entries) {
+////        entries.add(ModBlocks.GEM_CONVERTER);
+//    }
     private static void addItemsToFoodsAndDrinksItemGroup(FabricItemGroupEntries entries) {
        entries.add(ModItems.PINEAPPLE);
     }
@@ -46,6 +51,7 @@ public class ModItems {
         entries.add(ModItems.RUBY_AXE);
         entries.add(ModItems.RUBY_SHOVEL);
         entries.add(ModItems.RUBY_HOE);
+          entries.add(ModItems.C418_TASWELL);
    }
     private static void addToolsToCombatGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.RUBY_SWORD);
@@ -67,6 +73,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodsAndDrinksItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addToolsToCombatGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addToolsToToolsGroup);
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModItems::addBlocksToFunctionalBlocksGroup);
     }
 
 }

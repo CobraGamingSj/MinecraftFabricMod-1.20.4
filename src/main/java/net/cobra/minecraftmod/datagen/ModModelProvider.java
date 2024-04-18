@@ -37,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
       itemModelGenerator.register(ModItems.PINEAPPLE, Models.GENERATED);
       itemModelGenerator.register(ModItems.WOOD_PELLET, Models.GENERATED);
       itemModelGenerator.register(ModItems.SMITHING_TEMPLATE, Models.GENERATED);
+      itemModelGenerator.register(ModItems.C418_TASWELL, Models.GENERATED);
 
       itemModelGenerator.register(ModItems.RUBY_PICKAXE, Models.HANDHELD);
       itemModelGenerator.register(ModItems.RUBY_AXE, Models.HANDHELD);

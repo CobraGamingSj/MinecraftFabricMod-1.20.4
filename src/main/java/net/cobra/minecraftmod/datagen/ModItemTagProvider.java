@@ -20,5 +20,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
              .add(ModItems.SMITHING_TEMPLATE)
              .add(ModItems.RUBY_LEGGINGS)
              .add(ModItems.RUBY_BOOTS);
+
+     getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
+             .add(ModItems.C418_TASWELL);
     }
 }

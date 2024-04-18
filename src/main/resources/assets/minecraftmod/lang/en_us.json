@@ -25,5 +25,9 @@
   "item.minecraftmod.ruby_leggings": "Ruby Leggings",
   "item.minecraftmod.ruby_boots": "Ruby Boots",
   "item.minecraftmod.smithing_template": "Smithing Template",
+  "item.minecraftmod.smithing_template.desc": "Ruby Upgrade",
+  "entity.minecraft.villager.jeweller": "Jeweller",
+  "item.minecraftmod.taswell": "Music Disc - Taswell",
+  "item.minecraftmod.taswell.desc": "C418 - Taswell",
   "itemgroup.ruby": "Gemstones"
 }
